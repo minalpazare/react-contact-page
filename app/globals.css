@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+a{
+text-decoration: none;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.navItems {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f5a623;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+}
+
+.searchInput {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.limitedoffer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f5a623;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 15px 0;
+}
+#ho{
+  font-size: 20px;
+}
+
+.menuItem {
+  color: #fff;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menuItem:hover {
+  color: #f5a623;
+}
+
+#one{
+  text-align: center;    
+  text-shadow: 5px 5px 15px rgb(201, 144, 21) ;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+
+  
+/*-----contact--------*/
+
+#contact{
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right{
+  flex-basis: 60%;
+}
+.contact-left p{
+  margin-top: 30px;    
+}
+.btn.btn2{
+  display: inline-block;
+  background: #f5a623;
+}
+.contact-right form{
+  width: 70%;    
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/*----------Footer Page----------*/
+
+.footerPage{
+  height: 30vw;
+  width: 100%;
+  color: white;
+  background-color: #333;
+  margin-top: 3rem;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+  color: white;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.fIcons{
+  margin-top: 1rem;
+}
+.fMail{
+  margin-top: 1rem;
+}
+
+.copyright{
+  text-align: center;
+  
+}
+/* Responsive Design */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
